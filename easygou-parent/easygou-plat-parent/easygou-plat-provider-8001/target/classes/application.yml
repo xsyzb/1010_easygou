@@ -1,0 +1,12 @@
+#指定端口
+server:
+  port: 8001
+#指定访问服务端的路径
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+#服务名称 为什么必须大写?
+spring:
+  application:
+    name: PLAT-SERVICE
